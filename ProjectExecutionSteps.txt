@@ -1,0 +1,14 @@
+This project is designed in Python (PyQt5) and MS SQL Server.
+The .ui files you see, are designed in QtDesigner, which comes with PyQt5-tools.
+
+Project execution starts with dbms_main_program. In case you get 'PyQt5.QtCore module not found' error, go to your command prompt and uninstall pyqt5 and pyqt5-tools and reinstall them.
+
+The project will ask for Login Details. In case you have not created the account, create it by clicking on 'Create Account' button. Once you have created the account check the 'Login_details' table in the sql file I have created, you will see your login details. Before executing the program make sure you have changed your database from 'master' to 'warehouse'. Anyway SQL Server has been used as backend in for shopkeeper's aid. The users will get access to the GUI Interface only.  
+
+Make sure you have executed 'shop_items' table in the SQL Database. If you do not so, you will find the items missing in the list of items.
+
+You will be self directed.
+
+You can make payment as well. I have not created a payment page. You can use different python techniques to create one.
+
+Thank You..!
